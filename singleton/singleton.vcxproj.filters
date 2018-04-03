@@ -26,7 +26,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="strategy.cpp">
+    <ClCompile Include="singleton.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
