@@ -24,28 +24,16 @@
     <ClInclude Include="factory.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="phone.h">
+    <ClInclude Include="shape.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="tv.h">
+    <ClInclude Include="square.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="huaweiPhone.h">
+    <ClInclude Include="circle.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="huaweiTv.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="xiaomiPhone.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="xiaomiTv.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="huaweiFactory.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="xiaomiFactory.h">
+    <ClInclude Include="triangle.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -53,7 +41,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="abstract_factory.cpp">
+    <ClCompile Include="simple_factory.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

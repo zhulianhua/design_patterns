@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{6FEFA06E-152A-41CD-ABC3-F5A29365773A}</ProjectGuid>
+    <ProjectGuid>{03917473-4DEB-40D8-80F4-CB4601C65F94}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>abstractfactory</RootNamespace>
+    <RootNamespace>factorymethod</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,20 +147,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="factory.h" />
-    <ClInclude Include="huaweiFactory.h" />
-    <ClInclude Include="huaweiPhone.h" />
-    <ClInclude Include="huaweiTv.h" />
-    <ClInclude Include="phone.h" />
+    <ClInclude Include="circle.h" />
+    <ClInclude Include="circleFactory.h" />
+    <ClInclude Include="shape.h" />
+    <ClInclude Include="square.h" />
+    <ClInclude Include="squareFactory.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="tv.h" />
-    <ClInclude Include="xiaomiFactory.h" />
-    <ClInclude Include="xiaomiPhone.h" />
-    <ClInclude Include="xiaomiTv.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="abstract_factory.cpp" />
+    <ClCompile Include="factory_method.cpp" />
+    <ClCompile Include="factory.h" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

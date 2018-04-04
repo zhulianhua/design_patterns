@@ -21,13 +21,31 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="shape.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="circleFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="circle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="square.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="squareFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="factory.cpp">
+    <ClCompile Include="factory_method.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="factory.h">
+      <Filter>头文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

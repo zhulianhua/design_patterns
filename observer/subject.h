@@ -11,7 +11,7 @@
 // put the implementation in a cpp file.
 // Because, this file call the update() function from the Observer
 
-#include "Observer.h"
+#include "observer.h"
 //class Observer; 
 
 

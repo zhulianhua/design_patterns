@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ovserver", "ovserver\ovserver.vcxproj", "{BB4FC165-04EB-42D8-A3CF-FE8B96BADF6A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "observer", "observer\observer.vcxproj", "{BB4FC165-04EB-42D8-A3CF-FE8B96BADF6A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "template_method", "template_method\template_method.vcxproj", "{D27192D0-0382-403A-AAD3-4F809604365B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "strategy", "stratergy\stratergy.vcxproj", "{AE4F605F-7CB1-4E4F-BCAC-B29566227EF9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "strategy", "strategy\strategy.vcxproj", "{AE4F605F-7CB1-4E4F-BCAC-B29566227EF9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "state", "State\State.vcxproj", "{FB289C35-A5E0-4BB5-9A7B-1CA6E67E7499}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "state", "state\state.vcxproj", "{FB289C35-A5E0-4BB5-9A7B-1CA6E67E7499}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "command", "command\command.vcxproj", "{1CF80846-9F57-41CA-84EB-D5EC52AA0F42}"
 EndProject
@@ -17,11 +17,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "singleton", "singleton\sing
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "proxy", "proxy\proxy.vcxproj", "{5BBFF14E-F236-471E-9814-516F7689E7BC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "factory", "factory\factory.vcxproj", "{64E198A9-4BE7-4036-A6C7-20D653025158}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple_factory", "simple_factory\simple_factory.vcxproj", "{64E198A9-4BE7-4036-A6C7-20D653025158}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "abstract_factory", "abstract_factory\abstract_factory.vcxproj", "{6FEFA06E-152A-41CD-ABC3-F5A29365773A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "builder", "builder\builder.vcxproj", "{2132135F-0273-4ECB-966C-14448CF604E0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "factory_method", "factory_method\factory_method.vcxproj", "{03917473-4DEB-40D8-80F4-CB4601C65F94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,14 @@ Global
 		{2132135F-0273-4ECB-966C-14448CF604E0}.Release|x64.Build.0 = Release|x64
 		{2132135F-0273-4ECB-966C-14448CF604E0}.Release|x86.ActiveCfg = Release|Win32
 		{2132135F-0273-4ECB-966C-14448CF604E0}.Release|x86.Build.0 = Release|Win32
+		{03917473-4DEB-40D8-80F4-CB4601C65F94}.Debug|x64.ActiveCfg = Debug|x64
+		{03917473-4DEB-40D8-80F4-CB4601C65F94}.Debug|x64.Build.0 = Debug|x64
+		{03917473-4DEB-40D8-80F4-CB4601C65F94}.Debug|x86.ActiveCfg = Debug|Win32
+		{03917473-4DEB-40D8-80F4-CB4601C65F94}.Debug|x86.Build.0 = Debug|Win32
+		{03917473-4DEB-40D8-80F4-CB4601C65F94}.Release|x64.ActiveCfg = Release|x64
+		{03917473-4DEB-40D8-80F4-CB4601C65F94}.Release|x64.Build.0 = Release|x64
+		{03917473-4DEB-40D8-80F4-CB4601C65F94}.Release|x86.ActiveCfg = Release|Win32
+		{03917473-4DEB-40D8-80F4-CB4601C65F94}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
