@@ -21,12 +21,27 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="director.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="builder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="product.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="concreteBuilderA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="concreteBuilderB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="builder.cpp">
+    <ClCompile Include="builder_pattern.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
