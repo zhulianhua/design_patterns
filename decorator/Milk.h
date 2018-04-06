@@ -5,9 +5,8 @@
 #include "Beverage.h"
 
 class Milk : public Decorator {
-	Beverage* beverage;
 public:
-	Milk(Beverage* b) { beverage = b; }
+	Milk(Beverage* b) : Decorator(b) { }
 	double cost() {
 		return 0.1 + beverage->cost();
 	}

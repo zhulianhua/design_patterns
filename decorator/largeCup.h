@@ -4,9 +4,8 @@
 #include "Decorator.h"
 
 class LargeCup : public Decorator {
-	Beverage* beverage;
 public:
-	LargeCup(Beverage* b) : beverage(b) {}
+	LargeCup(Beverage* b) : Decorator(b) {}
 	CupSize getCupSize() { return largeCup; }
 	double cost() { return beverage->cost() + 1.5; }
 	string getDescription() { return beverage->getDescription() + " with large cup size"; }

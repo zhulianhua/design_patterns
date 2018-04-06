@@ -8,11 +8,9 @@ using namespace std;
 // 后面的测试发现，这样也能行得通。但是逻辑上比有Decorator类时模糊
 // 比如Soy和Espresso都是直接继承自Beverage, 但是Soy本质上是个装饰，而Espresso是饮料，
 // 另外Soy新引入了Beverage成员, 构造上也和Espresso不同，构造函数也不同
-class Soy : public Beverage {
-	Beverage* beverage;
-	Soy();
+class Soy : public Decorator {
 public:
-	Soy(Beverage* b) : beverage(b) {}
+	Soy(Beverage* b) : Decorator(b) {}
 	double cost() { return 0.2 + beverage->cost(); }
 	string getDescription() { return beverage->getDescription() + " with Soy"; }
 	CupSize getCupSize() { return beverage->getCupSize(); }
